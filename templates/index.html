@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Research AI System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <script src="/static/js/main.js" defer></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-center mb-8">Deep Research AI System</h1>
+        
+        <!-- Research Form -->
+        <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6 mb-8">
+            <form id="researchForm" class="space-y-4">
+                <div>
+                    <label for="query" class="block text-sm font-medium text-gray-700">Research Query</label>
+                    <textarea
+                        id="query"
+                        name="query"
+                        rows="3"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        placeholder="Enter your research query here..."
+                    ></textarea>
+                </div>
+                <button
+                    type="submit"
+                    class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                    Start Research
+                </button>
+            </form>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results" class="max-w-2xl mx-auto space-y-4 hidden">
+            <!-- Status -->
+            <div id="status" class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold mb-2">Status</h2>
+                <p id="statusText" class="text-gray-600"></p>
+            </div>
+
+            <!-- Research Results -->
+            <div id="researchResults" class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold mb-4">Research Results</h2>
+                <div id="synthesisContent" class="space-y-4">
+                    <div>
+                        <h3 class="font-medium text-gray-900">Summary</h3>
+                        <p id="summary" class="mt-2 text-gray-600"></p>
+                    </div>
+                    <div>
+                        <h3 class="font-medium text-gray-900">Key Points</h3>
+                        <ul id="keyPoints" class="mt-2 list-disc list-inside text-gray-600"></ul>
+                    </div>
+                    <div>
+                        <h3 class="font-medium text-gray-900">Sources</h3>
+                        <ul id="sources" class="mt-2 list-disc list-inside text-gray-600"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentTaskId = null;
+        const pollInterval = 2000; // 2 seconds
+
+        document.getElementById('researchForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const query = document.getElementById('query').value.trim();
+            const submitButton = e.target.querySelector('button[type="submit"]');
+            
+            if (!query) {
+                document.getElementById('statusText').innerHTML = '<div class="error">Please enter a research query</div>';
+                return;
+            }
+
+            try {
+                // Disable submit button and show loading state
+                submitButton.disabled = true;
+                submitButton.innerHTML = '<div class="loading"></div> Researching...';
+                
+                // Show results section and reset content
+                document.getElementById('results').classList.remove('hidden');
+                document.getElementById('statusText').innerHTML = '<div class="loading"></div> Starting research...';
+                document.getElementById('summary').textContent = '';
+                document.getElementById('keyPoints').innerHTML = '';
+                document.getElementById('sources').innerHTML = '';
+
+                // Start research task
+                const response = await fetch('/research', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                if (!data.task_id) {
+                    throw new Error('No task ID received from server');
+                }
+
+                currentTaskId = data.task_id;
+                // Start polling for results
+                pollResults();
+
+            } catch (error) {
+                document.getElementById('statusText').innerHTML = `<div class="error">Error: ${error.message}</div>`;
+            } finally {
+                // Reset submit button
+                submitButton.disabled = false;
+                submitButton.textContent = 'Start Research';
+            }
+        });
+
+        async function pollResults() {
+            if (!currentTaskId) return;
+
+            try {
+                const response = await fetch(`/status/${currentTaskId}`);
+                const data = await response.json();
+
+                document.getElementById('statusText').textContent = `Status: ${data.status}`;
+                
+                if (data.status === 'completed') {
+                    try {
+                        // Fetch and display results
+                        const resultsResponse = await fetch(`/results/${currentTaskId}`);
+                        if (!resultsResponse.ok) {
+                            throw new Error(`HTTP error! status: ${resultsResponse.status}`);
+                        }
+                        const results = await resultsResponse.json();
+                        displayResults(results);
+                    } catch (error) {
+                        document.getElementById('statusText').textContent = `Error fetching results: ${error.message}`;
+                    }
+                } else if (data.status === 'failed') {
+                    document.getElementById('statusText').textContent = `Error: ${data.error || 'Unknown error occurred'}`;
+                } else if (data.status === 'processing') {
+                    document.getElementById('statusText').innerHTML = '<div class="loading"></div> Processing...';
+                    // Continue polling
+                    setTimeout(pollResults, pollInterval);
+                } else {
+                    document.getElementById('statusText').textContent = `Unknown status: ${data.status}`;
+                }
+            } catch (error) {
+                document.getElementById('statusText').textContent = 'Error: ' + error.message;
+            }
+        }
+
+        function displayResults(results) {
+            if (!results || typeof results !== 'object') {
+                document.getElementById('statusText').innerHTML = '<div class="error">Error: Invalid response format</div>';
+                return;
+            }
+
+            // Check for errors
+            if (results.status === 'error' || results.errors?.length > 0) {
+                const errorMessage = results.errors?.[0] || 'Unknown error occurred';
+                document.getElementById('statusText').innerHTML = `<div class="error">Error: ${errorMessage}</div>`;
+                return;
+            }
+
+            // Handle research results if synthesis is not available
+            if (results.research_results?.length > 0) {
+                const researchResults = results.research_results;
+                document.getElementById('summary').textContent = 'Research Results:';
+                
+                // Display research results as key points
+                const keyPointsList = document.getElementById('keyPoints');
+                keyPointsList.innerHTML = researchResults
+                    .map(result => `<li>${result.content}</li>`)
+                    .join('');
+                
+                // Display sources
+                const sourcesList = document.getElementById('sources');
+                sourcesList.innerHTML = researchResults
+                    .map(result => `<li><a href="${result.url}" target="_blank" class="text-indigo-600 hover:text-indigo-800">${result.title}</a></li>`)
+                    .join('');
+            }
+
+            // Display synthesis results if available
+            const synthesis = results.result?.synthesis_result?.synthesis;
+            if (synthesis) {
+                // Display summary
+                document.getElementById('summary').textContent = synthesis.summary || 'No summary available';
+                
+                // Display key points
+                const keyPointsList = document.getElementById('keyPoints');
+                keyPointsList.innerHTML = Array.isArray(synthesis.key_points) && synthesis.key_points.length > 0
+                    ? synthesis.key_points.map(point => `<li>${point}</li>`).join('')
+                    : '<li>No key points available</li>';
+                
+                // Display sources
+                const sourcesList = document.getElementById('sources');
+                sourcesList.innerHTML = Array.isArray(synthesis.sources) && synthesis.sources.length > 0
+                    ? synthesis.sources.map(source => `<li><a href="${source}" target="_blank" class="text-indigo-600 hover:text-indigo-800">${source}</a></li>`).join('')
+                    : '<li>No sources available</li>';
+            }
+
+            // Update status
+            document.getElementById('statusText').innerHTML = '<div class="text-green-600">Research completed successfully!</div>';
+        }
+    </script>
+</body>
+</html>

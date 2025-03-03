@@ -1,0 +1,86 @@
+# AI and Language Models
+langchain>=0.2.17
+langchain-core>=0.1.53
+langchain-text-splitters>=0.2.4
+langgraph>=0.0.8
+langsmith>=0.1.147
+langchain-community>=0.0.16
+langchain-openai>=0.0.5
+tiktoken>=0.7.0
+tavily-python>=0.5.1
+
+# Web Framework and API
+fastapi>=0.115.9
+uvicorn>=0.33.0
+starlette>=0.44.0
+pydantic>=2.10.6
+pydantic_core>=2.27.2
+python-multipart>=0.0.20
+
+# Data Processing and Analysis
+pandas>=2.2.0
+numpy>=1.26.4
+matplotlib>=3.8.3
+seaborn>=0.13.2
+scipy>=1.12.0
+SQLAlchemy>=2.0.38
+
+# Security and Authentication
+tldextract>=5.1.1
+cryptography>=42.0.5
+passlib>=1.7.4
+python-jose>=3.3.0
+bcrypt>=4.1.2
+
+# HTTP and Networking
+aiohttp>=3.10.11
+httpx>=0.28.1
+requests>=2.32.3
+urllib3>=2.2.3
+
+# Utilities and Tools
+python-dotenv>=1.0.1
+PyYAML>=6.0.2
+Jinja2>=3.1.5
+beautifulsoup4>=4.13.3
+tenacity>=8.5.0
+
+# Development and Testing
+pytest>=8.0.2
+pytest-asyncio>=0.23.5
+pytest-cov>=4.1.0
+black>=24.2.0
+flake8>=7.0.0
+mypy>=1.8.0
+
+# Additional Dependencies
+aiohappyeyeballs>=2.4.4
+aiosignal>=1.3.1
+annotated-types>=0.7.0
+anyio>=4.5.2
+async-timeout>=4.0.3
+attrs>=25.1.0
+certifi>=2025.1.31
+charset-normalizer>=3.4.1
+click>=8.1.8
+exceptiongroup>=1.2.2
+frozenlist>=1.5.0
+greenlet>=3.1.1
+h11>=0.14.0
+httpcore>=1.0.7
+idna>=3.10
+jsonpatch>=1.33
+jsonpointer>=3.0.0
+MarkupSafe>=2.1.5
+multidict>=6.1.0
+orjson>=3.10.15
+packaging>=23.2
+propcache>=0.2.0
+pytz>=2025.1
+regex>=2024.11.6
+requests-toolbelt>=1.0.0
+six>=1.17.0
+sniffio>=1.3.1
+soupsieve>=2.6
+typing_extensions>=4.12.2
+yarl>=1.15.2

@@ -1,0 +1,350 @@
+2025-03-02 13:49:09 - core.orchestrator - INFO - Starting query refinement for: What are the latest developments in artificial intelligence and machine learning?
+2025-03-02 13:49:11 - core.orchestrator - INFO - Starting research for query: What are the latest developments in artificial intelligence and machine learning?
+2025-03-02 13:49:14 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 13:49:20 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 13:49:24 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 13:49:24 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 13:49:33 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 13:50:50 - core.orchestrator - INFO - Starting query refinement for: What are the latest advancements in quantum computing and its real-world applications?
+2025-03-02 13:50:53 - core.orchestrator - INFO - Starting research for query: What are the latest advancements in quantum computing and its real-world applications?
+2025-03-02 13:50:57 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 13:51:08 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 13:51:09 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 13:51:09 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 13:51:21 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:04:49 - core.orchestrator - INFO - Starting query refinement for: What are the latest developments in renewable energy technology?
+2025-03-02 14:04:52 - core.orchestrator - INFO - Starting research for query: What are the latest developments in renewable energy technology?
+2025-03-02 14:05:02 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:05:13 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:05:16 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:05:16 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:05:22 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:15:50 - core.orchestrator - INFO - Starting query refinement for: Research about: https://www.example.com/article
+2025-03-02 14:15:51 - core.orchestrator - INFO - Starting query refinement for: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:15:52 - core.orchestrator - INFO - Starting query refinement for: Research about: https://docs.python.org/3/library/
+2025-03-02 14:15:53 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/search?q=test&page=1
+2025-03-02 14:15:54 - core.orchestrator - INFO - Starting query refinement for: Research about: https://api.example.com/v1/users?include=profile,settings
+2025-03-02 14:15:54 - core.orchestrator - INFO - Starting research for query: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:15:54 - core.orchestrator - INFO - Starting research for query: Research about: https://docs.python.org/3/library/
+2025-03-02 14:15:54 - core.orchestrator - INFO - Starting research for query: Research about: https://www.example.com/article
+2025-03-02 14:15:55 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/product?utm_source=google&utm_medium=cpc
+2025-03-02 14:15:56 - core.orchestrator - INFO - Starting query refinement for: Research about: https://shop.com/item?fbclid=123&ref=social
+2025-03-02 14:15:56 - core.orchestrator - INFO - Starting research for query: Research about: https://api.example.com/v1/users?include=profile,settings
+2025-03-02 14:15:56 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/search?q=test&page=1
+2025-03-02 14:15:57 - core.orchestrator - INFO - Starting query refinement for: Research about: https://docs.example.com/guide#section-1
+2025-03-02 14:15:57 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/product?utm_source=google&utm_medium=cpc
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting research for query: Research about: https://docs.example.com/guide#section-1
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting research for query: Research about: https://shop.com/item?fbclid=123&ref=social
+2025-03-02 14:16:46 - core.orchestrator - INFO - Starting query refinement for: Research about: javascript:alert('xss')
+2025-03-02 14:16:47 - core.orchestrator - INFO - Starting query refinement for: Research about: data:text/html,<script>alert('xss')</script>
+2025-03-02 14:16:48 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com@evil.com
+2025-03-02 14:16:48 - core.orchestrator - INFO - Starting research for query: Research about: javascript:alert('xss')
+2025-03-02 14:16:50 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:16:50 - core.orchestrator - INFO - Starting research for query: Research about: data:text/html,<script>alert('xss')</script>
+2025-03-02 14:16:50 - core.orchestrator - INFO - Starting query refinement for: Research about: https://evil.com/redirect?url=http://internal-network/admin
+2025-03-02 14:16:50 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting research for query: Research about: https://evil.com/redirect?url=http://internal-network/admin
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com@evil.com
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting query refinement for: Research about: not_a_url
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting query refinement for: Research about: http://
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:13 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:14 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:14 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:14 - core.orchestrator - INFO - Starting query refinement for: Research about: https://.com
+2025-03-02 14:17:14 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:14 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:15 - core.orchestrator - INFO - Starting query refinement for: Research about: http://example.com:abc
+2025-03-02 14:17:15 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:15 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:15 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:17:15 - core.orchestrator - INFO - Starting research for query: Research about: not_a_url
+2025-03-02 14:17:16 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/path with spaces
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting research for query: Research about: http://
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting research for query: Research about: http://example.com:abc
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting research for query: Research about: https://.com
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/path with spaces
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/path/with/émojis/🔒
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:44 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:45 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:45 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:45 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:17:45 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:17:47 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/path/with/émojis/🔒
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:18:26 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:18:28 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:18:29 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:18:29 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:18:29 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:18:29 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:18:32 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:33 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:18:33 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:33 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:18:34 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:35 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:18:35 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:18:35 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:18:35 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:35 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:36 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:18:36 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:18:36 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:18:36 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:18:37 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:18:41 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:42 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:18:52 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:19:00 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:19:00 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:19:06 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:11 - core.orchestrator - INFO - Starting query refinement for: Research about: https://www.example.com/article
+2025-03-02 14:21:12 - core.orchestrator - INFO - Starting query refinement for: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:21:13 - core.orchestrator - INFO - Starting query refinement for: Research about: https://docs.python.org/3/library/
+2025-03-02 14:21:13 - core.orchestrator - INFO - Starting research for query: Research about: https://www.example.com/article
+2025-03-02 14:21:14 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/search?q=test&page=1
+2025-03-02 14:21:15 - core.orchestrator - INFO - Starting query refinement for: Research about: https://api.example.com/v1/users?include=profile,settings
+2025-03-02 14:21:16 - core.orchestrator - INFO - Starting research for query: Research about: https://docs.python.org/3/library/
+2025-03-02 14:21:16 - core.orchestrator - INFO - Starting research for query: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:21:16 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:16 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/product?utm_source=google&utm_medium=cpc
+2025-03-02 14:21:17 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/search?q=test&page=1
+2025-03-02 14:21:17 - core.orchestrator - INFO - Starting query refinement for: Research about: https://shop.com/item?fbclid=123&ref=social
+2025-03-02 14:21:17 - core.orchestrator - INFO - Starting research for query: Research about: https://api.example.com/v1/users?include=profile,settings
+2025-03-02 14:21:17 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:18 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:18 - core.orchestrator - INFO - Starting query refinement for: Research about: https://docs.example.com/guide#section-1
+2025-03-02 14:21:19 - core.orchestrator - INFO - Starting query refinement for: Research about: https://app.com/dashboard#/settings/profile
+2025-03-02 14:21:20 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:20 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:20 - core.orchestrator - INFO - Starting research for query: Research about: https://shop.com/item?fbclid=123&ref=social
+2025-03-02 14:21:20 - core.orchestrator - INFO - Starting query refinement for: Research about: file:///etc/passwd
+2025-03-02 14:21:20 - core.orchestrator - INFO - Starting research for query: Research about: https://docs.example.com/guide#section-1
+2025-03-02 14:21:21 - core.orchestrator - INFO - Starting research for query: Research about: https://app.com/dashboard#/settings/profile
+2025-03-02 14:21:21 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:21 - core.orchestrator - INFO - Starting query refinement for: Research about: http://169.254.169.254/latest/meta-data/
+2025-03-02 14:21:21 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:22 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:22 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:22 - core.orchestrator - INFO - Starting query refinement for: Research about: https://evil.com/script.php?cmd=rm%20-rf%20/
+2025-03-02 14:21:23 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:23 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:23 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:23 - core.orchestrator - INFO - Starting query refinement for: Research about: javascript:alert('xss')
+2025-03-02 14:21:23 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:24 - core.orchestrator - INFO - Starting research for query: Research about: file:///etc/passwd
+2025-03-02 14:21:24 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:24 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:24 - core.orchestrator - INFO - Starting query refinement for: Research about: data:text/html,<script>alert('xss')</script>
+2025-03-02 14:21:24 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:24 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:24 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:25 - core.orchestrator - INFO - Starting research for query: Research about: javascript:alert('xss')
+2025-03-02 14:21:25 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com@evil.com
+2025-03-02 14:21:25 - core.orchestrator - INFO - Starting research for query: Research about: data:text/html,<script>alert('xss')</script>
+2025-03-02 14:21:25 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:25 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:26 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:26 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:26 - core.orchestrator - INFO - Starting research for query: Research about: http://169.254.169.254/latest/meta-data/
+2025-03-02 14:21:26 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:26 - core.orchestrator - INFO - Starting query refinement for: Research about: https://evil.com/redirect?url=http://internal-network/admin
+2025-03-02 14:21:26 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:26 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:26 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:27 - core.orchestrator - INFO - Starting research for query: Research about: https://evil.com/script.php?cmd=rm%20-rf%20/
+2025-03-02 14:21:27 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:27 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/product?utm_source=google&utm_medium=cpc
+2025-03-02 14:21:27 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:27 - core.orchestrator - INFO - Starting query refinement for: Research about: not_a_url
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com@evil.com
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting query refinement for: Research about: http://
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:28 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:29 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:29 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:29 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:29 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:29 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:29 - core.orchestrator - INFO - Starting research for query: Research about: https://evil.com/redirect?url=http://internal-network/admin
+2025-03-02 14:21:29 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:29 - core.orchestrator - INFO - Starting query refinement for: Research about: https://.com
+2025-03-02 14:21:30 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:30 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:30 - core.orchestrator - INFO - Starting research for query: Research about: not_a_url
+2025-03-02 14:21:30 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:30 - core.orchestrator - INFO - Starting query refinement for: Research about: http://example.com:abc
+2025-03-02 14:21:31 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:31 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:31 - core.orchestrator - INFO - Starting research for query: Research about: http://
+2025-03-02 14:21:31 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/path with spaces
+2025-03-02 14:21:32 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:32 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:32 - core.orchestrator - INFO - Starting research for query: Research about: http://example.com:abc
+2025-03-02 14:21:32 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:32 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:32 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:32 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/path/with/émojis/🔒
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting query refinement for: Research about: https://example.com/path%20encoded
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:33 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:34 - core.orchestrator - INFO - Starting research for query: Research about: https://.com
+2025-03-02 14:21:34 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/path with spaces
+2025-03-02 14:21:34 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/path/with/émojis/🔒
+2025-03-02 14:21:34 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:34 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:34 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:34 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting research for query: Research about: https://example.com/path%20encoded
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:37 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:38 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:38 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:38 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:39 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:39 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:39 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:39 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:40 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:40 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:40 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:40 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:21:41 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:41 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:41 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:41 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:41 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:41 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:41 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:41 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:42 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:42 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:42 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:43 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:43 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:43 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:45 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:45 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:21:46 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:46 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:21:46 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:21:46 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:21:48 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:22:06 - core.orchestrator - INFO - Starting query refinement for: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:22:08 - core.orchestrator - INFO - Starting research for query: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:22:10 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:22:21 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:22:22 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:22:22 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:22:28 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:23:06 - core.orchestrator - INFO - Starting query refinement for: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:23:07 - core.orchestrator - INFO - Starting query refinement for: Research about: https://docs.python.org/3/library/
+2025-03-02 14:23:09 - core.orchestrator - INFO - Starting research for query: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:23:09 - core.orchestrator - INFO - Starting research for query: Research about: https://docs.python.org/3/library/
+2025-03-02 14:23:16 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:23:16 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:23:24 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:23:26 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:23:26 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:23:27 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:23:28 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:23:28 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:23:32 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:23:35 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:33:39 - core.orchestrator - INFO - Starting query refinement for: Latest developments in quantum computing
+2025-03-02 14:33:41 - core.orchestrator - INFO - Starting research for query: Latest developments in quantum computing
+2025-03-02 14:33:45 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:33:46 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:33:49 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:33:49 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:33:51 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:39:13 - core.orchestrator - INFO - Starting query refinement for: why python is prefered over other languages ?
+2025-03-02 14:39:15 - core.orchestrator - INFO - Starting research for query: why python is prefered over other languages ?
+2025-03-02 14:39:19 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:39:22 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:39:24 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:39:24 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:39:28 - core.orchestrator - INFO - Starting synthesis of research results
+2025-03-02 14:40:13 - core.orchestrator - INFO - Starting query refinement for: where is mumbai located and why ?
+2025-03-02 14:40:14 - core.orchestrator - INFO - Starting research for query: where is mumbai located and why ?
+2025-03-02 14:40:18 - core.orchestrator - INFO - Starting fact checking of research results
+2025-03-02 14:40:22 - core.orchestrator - INFO - Starting data analysis of research results
+2025-03-02 14:40:25 - core.orchestrator - INFO - Starting code analysis of research results
+2025-03-02 14:40:25 - core.orchestrator - INFO - Starting citation processing of research results
+2025-03-02 14:40:29 - core.orchestrator - INFO - Starting synthesis of research results

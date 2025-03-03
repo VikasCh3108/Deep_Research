@@ -1,0 +1,362 @@
+2025-03-02 13:49:11 - agents.research_agent - INFO - Making Tavily API request for query: What are the latest developments in artificial intelligence and machine learning?
+2025-03-02 13:49:14 - agents.research_agent - INFO - Found 11 results from Tavily API
+2025-03-02 13:50:53 - agents.research_agent - INFO - Making Tavily API request for query: What are the latest advancements in quantum computing and its real-world applications?
+2025-03-02 13:50:57 - agents.research_agent - INFO - Found 11 results from Tavily API
+2025-03-02 14:04:52 - agents.research_agent - INFO - Making Tavily API request for query: What are the latest developments in renewable energy technology?
+2025-03-02 14:04:59 - agents.research_agent - WARNING - Skipping unsafe URL https://www.nesfircroft.com/resources/blog/the-future-of-renewables-innovations-in-energy-technology/: URL returned status code 204
+2025-03-02 14:04:59 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedaily.com/news/earth_climate/renewable_energy/: URL returned status code 405
+2025-03-02 14:04:59 - agents.research_agent - WARNING - Skipping unsafe URL https://www.iea.org/energy-system/renewables: URL returned status code 403
+2025-03-02 14:05:02 - agents.research_agent - INFO - Found 8 results from Tavily API
+2025-03-02 14:15:54 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:15:54 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://docs.python.org/3/library/
+2025-03-02 14:15:54 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://www.example.com/article
+2025-03-02 14:15:56 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://api.example.com/v1/users?include=profile,settings
+2025-03-02 14:15:56 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/search?q=test&page=1
+2025-03-02 14:15:57 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/product?utm_source=google&utm_medium=cpc
+2025-03-02 14:16:22 - agents.research_agent - INFO - Found 11 results from Tavily API
+2025-03-02 14:16:22 - agents.research_agent - WARNING - Skipping unsafe URL https://quizlet.com/764869390/computer-concepts-module-two-quiz-flash-cards/: URL returned status code 403
+2025-03-02 14:16:23 - agents.research_agent - WARNING - Skipping unsafe URL https://quizlet.com/484426702/bcis-quiz-4-flash-cards/: URL returned status code 403
+2025-03-02 14:16:26 - agents.research_agent - WARNING - Skipping unsafe URL https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/: URL returned status code 403
+2025-03-02 14:16:26 - agents.research_agent - INFO - Found 8 results from Tavily API
+2025-03-02 14:16:29 - agents.research_agent - INFO - Found 11 results from Tavily API
+2025-03-02 14:16:30 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/373237120_What's_in_a_Domain_Analysis_of_URL_Features: URL returned status code 403
+2025-03-02 14:16:30 - agents.research_agent - WARNING - Skipping unsafe URL https://journals.sagepub.com/doi/full/10.3233/JCS-200070: URL returned status code 403
+2025-03-02 14:16:30 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/230881133_An_Experiment_to_Test_URL_Features_for_Web_Page_Classification: URL returned status code 403
+2025-03-02 14:16:33 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedirect.com/science/article/pii/S0893395222024425: URL returned status code 403
+2025-03-02 14:16:33 - agents.research_agent - INFO - Found 7 results from Tavily API
+2025-03-02 14:16:41 - agents.research_agent - INFO - Found 11 results from Tavily API
+2025-03-02 14:16:46 - agents.research_agent - INFO - Found 11 results from Tavily API
+2025-03-02 14:16:46 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://docs.example.com/guide#section-1
+2025-03-02 14:16:46 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://shop.com/item?fbclid=123&ref=social
+2025-03-02 14:16:48 - agents.research_agent - INFO - Making Tavily API request for query: Research about: javascript:alert('xss')
+2025-03-02 14:16:50 - agents.research_agent - WARNING - Skipping unsafe URL https://www.shop.com/: URL returned status code 403
+2025-03-02 14:16:50 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:16:50 - agents.research_agent - INFO - Making Tavily API request for query: Research about: data:text/html,<script>alert('xss')</script>
+2025-03-02 14:16:51 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.stripe.com/: URL returned status code 404
+2025-03-02 14:16:56 - agents.research_agent - INFO - Found 10 results from Tavily API
+2025-03-02 14:16:57 - agents.research_agent - WARNING - Skipping unsafe URL https://portswigger.net/research/alert-is-dead-long-live-print: URL returned status code 404
+2025-03-02 14:17:03 - agents.research_agent - INFO - Found 10 results from Tavily API
+2025-03-02 14:17:08 - agents.research_agent - WARNING - Skipping unsafe URL https://portswigger.net/web-security/cross-site-scripting/contexts: URL returned status code 404
+2025-03-02 14:17:12 - agents.research_agent - INFO - Found 10 results from Tavily API
+2025-03-02 14:17:13 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://evil.com/redirect?url=http://internal-network/admin
+2025-03-02 14:17:13 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com@evil.com
+2025-03-02 14:17:15 - agents.research_agent - INFO - Making Tavily API request for query: Research about: not_a_url
+2025-03-02 14:17:21 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedirect.com/science/article/abs/pii/S0167404820302480: URL returned status code 403
+2025-03-02 14:17:24 - agents.research_agent - INFO - Found 10 results from Tavily API
+2025-03-02 14:17:25 - agents.research_agent - WARNING - Skipping unsafe URL https://portswigger.net/web-security/ssrf: URL returned status code 404
+2025-03-02 14:17:30 - agents.research_agent - WARNING - Skipping unsafe URL https://www.hhs.gov/sites/default/files/evil-corp-threat-profile.pdf: URL returned status code 403
+2025-03-02 14:17:34 - agents.research_agent - INFO - Found 9 results from Tavily API
+2025-03-02 14:17:42 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/352099216_Research_on_Malicious_URL_Detection_Based_on_Feature_Contribution_Tendency: URL returned status code 403
+2025-03-02 14:17:42 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/328761731_Comparative_Study_of_the_Detection_of_Malicious_URLs_Using_Shallow_and_Deep_Networks: URL returned status code 403
+2025-03-02 14:17:44 - agents.research_agent - INFO - Found 9 results from Tavily API
+2025-03-02 14:17:44 - agents.research_agent - INFO - Making Tavily API request for query: Research about: http://
+2025-03-02 14:17:44 - agents.research_agent - INFO - Making Tavily API request for query: Research about: http://example.com:abc
+2025-03-02 14:17:44 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://.com
+2025-03-02 14:17:44 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/path with spaces
+2025-03-02 14:17:47 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/path/with/émojis/🔒
+2025-03-02 14:17:47 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/311757131_Analysis_of_web_traffic_based_on_HTTP_protocol: URL returned status code 403
+2025-03-02 14:17:48 - agents.research_agent - WARNING - Skipping unsafe URL https://portswigger.net/research/request-smuggling: URL returned status code 404
+2025-03-02 14:17:51 - agents.research_agent - WARNING - Skipping unsafe URL http://ieeexplore.ieee.org/document/4085443/: URL returned status code 418
+2025-03-02 14:17:54 - agents.research_agent - WARNING - Skipping unsafe URL https://study.com/learn/lesson/what-is-hypertext-transfer-protocol-examples.html: URL returned status code 403
+2025-03-02 14:17:54 - agents.research_agent - WARNING - Skipping unsafe URL https://www.semanticscholar.org/paper/Analysis-of-web-traffic-based-on-HTTP-protocol-Chen-Cheng/47adf6c6ec2bba63d1eca5284e132d6c80f53b65: URL returned status code 202
+2025-03-02 14:17:54 - agents.research_agent - INFO - Found 6 results from Tavily API
+2025-03-02 14:17:54 - agents.research_agent - WARNING - Skipping unsafe URL https://academic.oup.com/nar/article/51/D1/D792/6654411: URL returned status code 403
+2025-03-02 14:17:56 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/figure/Web-API-example-The-red-ABC-icon-on-top-of-the-textarea-indicates-a-stateful-field_fig5_228967017: URL returned status code 403
+2025-03-02 14:17:56 - agents.research_agent - WARNING - Skipping unsafe URL https://www.quora.com/What-exactly-happens-when-we-open-a-website-like-http-www-abc-com-*yxz: URL returned status code 403
+2025-03-02 14:18:01 - agents.research_agent - INFO - Found 8 results from Tavily API
+2025-03-02 14:18:11 - agents.research_agent - WARNING - Skipping unsafe URL https://learn.microsoft.com/en-us/troubleshoot/windows-server/setup-upgrade-and-drivers/filenames-with-spaces-require-quotation-mark: Failed to verify URL
+2025-03-02 14:18:15 - agents.research_agent - WARNING - Skipping unsafe URL https://answers.microsoft.com/en-us/outlook_com/forum/all/unc-path-pasting-with-spaces-functionality-changes/5ec82829-5dde-4356-bd82-7624a7bdb0bc: URL returned status code 404
+2025-03-02 14:18:15 - agents.research_agent - INFO - Found 9 results from Tavily API
+2025-03-02 14:18:16 - agents.research_agent - WARNING - Skipping unsafe URL https://research.com/: URL returned status code 403
+2025-03-02 14:18:16 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/: URL returned status code 403
+2025-03-02 14:18:16 - agents.research_agent - WARNING - Skipping unsafe URL https://study.com/: URL returned status code 403
+2025-03-02 14:18:22 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedirect.com/journal/journal-of-business-research: URL returned status code 403
+2025-03-02 14:18:22 - agents.research_agent - WARNING - Skipping unsafe URL https://www.ssrn.com/: URL returned status code 429
+2025-03-02 14:18:24 - agents.research_agent - INFO - Found 6 results from Tavily API
+2025-03-02 14:18:26 - agents.research_agent - INFO - Found 2 results from Tavily API
+2025-03-02 14:21:13 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://www.example.com/article
+2025-03-02 14:21:16 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://docs.python.org/3/library/
+2025-03-02 14:21:16 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://quizlet.com/764869390/computer-concepts-module-two-quiz-flash-cards/: Domain quizlet.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://research.google.com/pubs/archive/46197.pdf: Domain google.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://webmasters.stackexchange.com/questions/109324/https-example-com-and-https-www-example-com-should-i-use-one-or-two-ssl-cer: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://quizlet.com/484426702/bcis-quiz-4-flash-cards/: Domain quizlet.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://serverfault.com/questions/510578/how-to-redirect-from-https-www-example-com-to-be-https-example-com: Domain serverfault.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://webmasters.stackexchange.com/questions/6107/www-example-com-or-http-example-com-which-one-is-futureproof: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://superuser.com/questions/1018514/why-does-www-example-com-differ-from-example-com: Domain superuser.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/5975103/difference-between-http-example-com-and-http-www-example-com: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://example.com/: Domain example.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - WARNING - Skipping unsafe URL https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/: Domain cloudflare.com not in allowed list
+2025-03-02 14:21:16 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:17 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/search?q=test&page=1
+2025-03-02 14:21:17 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://api.example.com/v1/users?include=profile,settings
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.python.org/3/library/index.html: Domain python.org not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://www.reddit.com/r/learnpython/comments/7axje4/how_to_read_the_documentation_of_python_3/: Domain reddit.com not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.python.org/3/reference/index.html: Domain python.org not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.python.org/3/library/re.html: Domain python.org not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.python.org/: Domain python.org not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.python.org/3/tutorial/index.html: Domain python.org not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.python.org/3/library/math.html: Domain python.org not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/56918003/i-there-a-better-python-documentation-more-structured: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.python.org/3/library/pickle.html: Domain python.org not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.python.org/3/library/random.html: Domain python.org not in allowed list
+2025-03-02 14:21:17 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:18 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/14390090/github-api-list-all-repositories-and-repos-content: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:18 - agents.research_agent - INFO - Found 10 results from Tavily API
+2025-03-02 14:21:19 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/3762430/rails-preserving-get-query-string-parameters-in-link-to: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:19 - agents.research_agent - WARNING - Skipping unsafe URL https://webmasters.stackexchange.com/questions/109324/https-example-com-and-https-www-example-com-should-i-use-one-or-two-ssl-cer: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:19 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/373237120_What's_in_a_Domain_Analysis_of_URL_Features: Domain researchgate.net not in allowed list
+2025-03-02 14:21:19 - agents.research_agent - WARNING - Skipping unsafe URL https://www.coursehero.com/file/61235789/ComparisonExercisepdf/: Domain coursehero.com not in allowed list
+2025-03-02 14:21:19 - agents.research_agent - WARNING - Skipping unsafe URL https://journals.sagepub.com/doi/full/10.3233/JCS-200070: Domain sagepub.com not in allowed list
+2025-03-02 14:21:19 - agents.research_agent - WARNING - Skipping unsafe URL https://core.ac.uk/download/pdf/157763493.pdf: Domain core.ac.uk not in allowed list
+2025-03-02 14:21:19 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/230881133_An_Experiment_to_Test_URL_Features_for_Web_Page_Classification: Domain researchgate.net not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://discovery.ucl.ac.uk/1317758/1/283170.pdf: Domain ucl.ac.uk not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedirect.com/science/article/pii/S0893395222024425: URL returned status code 403
+2025-03-02 14:21:20 - agents.research_agent - INFO - Found 2 results from Tavily API
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://swagger.io/docs/specification/v3_0/api-host-and-base-path/: Domain swagger.io not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://api.slack.com/methods/users.profile.set: Domain slack.com not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://developer.okta.com/docs/reference/api/users/: Domain okta.com not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://community.fortinet.com/t5/Support-Forum/Using-the-API-to-add-a-user-to-a-group/m-p/230249: Domain fortinet.com not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api: Domain microsoft.com not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/7130648/get-user-info-via-google-api: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://developer.okta.com/docs/reference/user-query/: Domain okta.com not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://developer.spotify.com/documentation/web-api/reference/get-current-users-profile: Domain spotify.com not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - WARNING - Skipping unsafe URL https://developers.facebook.com/docs/graph-api/reference/user/: Domain facebook.com not in allowed list
+2025-03-02 14:21:20 - agents.research_agent - INFO - Found 2 results from Tavily API
+2025-03-02 14:21:20 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://shop.com/item?fbclid=123&ref=social
+2025-03-02 14:21:20 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://docs.example.com/guide#section-1
+2025-03-02 14:21:21 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://app.com/dashboard#/settings/profile
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.stripe.com/: Domain stripe.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.docker.com/get-started/: Domain docker.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.ckan.org/en/latest/user-guide.html: Domain ckan.org not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://learn.microsoft.com/en-us/rest/api/searchservice/: Domain microsoft.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://example.com/: Domain example.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.djangoproject.com/en/5.1/: Domain djangoproject.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html: Domain amazon.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://workspace.google.com/products/docs/: Domain google.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.moodle.org/en/Teacher_quick_guide: Domain moodle.org not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - INFO - Found 2 results from Tavily API
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://www.shop.com/: Domain shop.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://accounts.google.com/servicelogin?hl=en-gb: Domain google.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://app.hubspot.com/login: Domain hubspot.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://accounts.google.com/ServiceLogin?service=chromiumsync: Domain google.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://search.google.com/search-console/ownership: Domain google.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://atoz-login.amazon.work/: Domain amazon.work not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://go.okstate.edu/: Domain okstate.edu not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://mysignins.microsoft.com/security-info: Domain microsoft.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://www.getepic.com/Students: Domain getepic.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://www.gartner.com/account/signin: Domain gartner.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - WARNING - Skipping unsafe URL https://app.formative.com/login: Domain formative.com not in allowed list
+2025-03-02 14:21:23 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:24 - agents.research_agent - INFO - Making Tavily API request for query: Research about: file:///etc/passwd
+2025-03-02 14:21:25 - agents.research_agent - INFO - Making Tavily API request for query: Research about: javascript:alert('xss')
+2025-03-02 14:21:25 - agents.research_agent - INFO - Making Tavily API request for query: Research about: data:text/html,<script>alert('xss')</script>
+2025-03-02 14:21:26 - agents.research_agent - INFO - Making Tavily API request for query: Research about: http://169.254.169.254/latest/meta-data/
+2025-03-02 14:21:27 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://evil.com/script.php?cmd=rm%20-rf%20/
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://dev.to/dm8ry/file-etcpasswd-3eam: Domain dev.to not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://www.geeksforgeeks.org/understanding-the-etc-passwd-file/: Domain geeksforgeeks.org not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://phoenixnap.com/kb/etc-passwd: Domain phoenixnap.com not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://dev.to/kcdchennai/understanding-etcpasswd-file-in-linux-1k2d: Domain dev.to not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://labex.io/questions/what-is-the-purpose-of-etcpasswd-file-18279: Domain labex.io not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://www.ibm.com/docs/en/aix/7.2?topic=files-etcpasswd-file: Domain ibm.com not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://www.ibm.com/docs/ssw_aix_71/security/passwords_etc_passwd_file.html: Domain ibm.com not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/: Domain cyberciti.biz not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://www.computernetworkingnotes.com/linux-tutorials/etc-passwd-file-in-linux-explained-with-examples.html: Domain computernetworkingnotes.com not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - WARNING - Skipping unsafe URL https://www.youtube.com/watch?v=j3mVCBs8wwk: Domain youtube.com not in allowed list
+2025-03-02 14:21:27 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:27 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/product?utm_source=google&utm_medium=cpc
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://portswigger.net/research/alert-is-dead-long-live-print: Domain portswigger.net not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.nuharborsecurity.com/blog/alertxss-pwn3d-real-dangers-cross-site-scripting: Domain nuharborsecurity.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/56245779/xss-with-javascriptalert: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://security.stackexchange.com/questions/39818/how-could-the-string-alertxss-be-used-for-xss: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://liveoverflow.com/do-not-use-alert-1-in-xss/: Domain liveoverflow.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://labs.withsecure.com/publications/getting-real-with-xss: Domain withsecure.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.invicti.com/learn/cross-site-scripting-xss/: Domain invicti.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS: Domain mozilla.org not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.acunetix.com/websitesecurity/cross-site-scripting/: Domain acunetix.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.cobalt.io/blog/a-pentesters-guide-to-cross-site-scripting-xss: Domain cobalt.io not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:28 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com@evil.com
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.nuharborsecurity.com/blog/alertxss-pwn3d-real-dangers-cross-site-scripting: Domain nuharborsecurity.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://global.ptsecurity.com/analytics/knowledge-base/what-is-a-cross-site-scripting-xss-attack: Domain ptsecurity.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.invicti.com/learn/cross-site-scripting-xss/: Domain invicti.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://learn.microsoft.com/en-us/aspnet/core/security/cross-site-scripting?view=aspnetcore-9.0: Domain microsoft.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://portswigger.net/web-security/cross-site-scripting/contexts: Domain portswigger.net not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://salt.security/blog/over-1-million-websites-are-at-risk-of-sensitive-information-leakage---xss-is-dead-long-live-xss: Domain salt.security not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://isi.jhu.edu/wp-content/uploads/2020/04/HICSS19-XSS-Analysis-hicss-draft-9-22-2018-V3.pdf: Domain jhu.edu not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS: Domain mozilla.org not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.acunetix.com/websitesecurity/cross-site-scripting/: Domain acunetix.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://brightsec.com/blog/cross-site-scripting-xss/: Domain brightsec.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.owox.com/blog/articles/how-to-use-utm-tags: Domain owox.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.owox.com/blog/articles/guide-to-utm-parameters-for-marketing-campaigns-in-ga4: Domain owox.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.adasight.com/blog/track-marketing-channels-campaigns-amplitude-analytics: Domain adasight.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://digitalads.io/blog/understanding-google-ads-urls-display-url-vs.-final-url-and-the-hierarchy-in-ad-structure: Domain digitalads.io not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.spinutech.com/digital-marketing/analytics/conversion/what-are-utm-codes-utm-tracking-explained/: Domain spinutech.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/365888/how-to-decode-google-gclids: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://backlinko.com/url-parameters: Domain backlinko.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://kickstartdigital.co.nz/marketing-content-terms/url-variable/: Domain kickstartdigital.co.nz not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://www.customerlabs.com/blog/ga4-utm-parameters-guide/?srsltid=AfmBOoq7luV0VnqsYbjclryU0v1tXfVXMCHCEyF6JoMdK2aU5d0KpbXx: Domain customerlabs.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - WARNING - Skipping unsafe URL https://gaconnector.com/blog/7-examples-of-using-utm-parameters-effectively/: Domain gaconnector.com not in allowed list
+2025-03-02 14:21:28 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/56995444/what-exactly-does-http-169-254-169-254-latest-meta-data-instance-id-provide: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://medium.com/version-1/ec2-metadata-evil-or-genius-1abf73525d80: Domain medium.com not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://rhynorater.github.io/AWS-Metadata-Identity-Credentials: Domain github.io not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://www.reddit.com/r/aws/comments/h98ae4/unable_to_access_instance_metadata_at/: Domain reddit.com not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://serverfault.com/questions/774552/aws-ec2-instance-metadata-service-fails-to-respond: Domain serverfault.com not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://securitylabs.datadoghq.com/articles/misconfiguration-spotlight-imds/: Domain datadoghq.com not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://risk3sixty.com/blog/how-to-use-aws-metadata-service: Domain risk3sixty.com not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://repost.aws/questions/QUnn133tdrSeSP6Q_BEbbNTg/ssmagent-fails-to-connect-on-some-instances: Domain repost.aws not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html: Domain amazon.com not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - WARNING - Skipping unsafe URL https://serverfault.com/questions/1011591/windows-container-on-ec2-unable-to-connect-to-http-169-254-169-254-latest-meta: Domain serverfault.com not in allowed list
+2025-03-02 14:21:29 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:29 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://evil.com/redirect?url=http://internal-network/admin
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://portswigger.net/web-security/ssrf: Domain portswigger.net not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://www.acunetix.com/blog/web-security-zone/what-are-open-redirects/: Domain acunetix.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://security.stackexchange.com/questions/84810/how-to-exploit-open-redirect-vulnerability: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/27292441/origin-evil-example-in-request-header: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://blog.qualys.com/vulnerabilities-threat-research/2016/01/07/open-redirection-a-simple-vulnerability-threatens-your-web-applications: Domain qualys.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL http://projects.webappsec.org/URL-Redirector-Abuse: Domain webappsec.org not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://i.blackhat.com/asia-19/Fri-March-29/bh-asia-Wang-Make-Redirection-Evil-Again-wp.pdf: Domain blackhat.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://www.hhs.gov/sites/default/files/evil-corp-threat-profile.pdf: Domain hhs.gov not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://intel471.com/blog/threat-hunting-case-study-looking-for-evil-corp: Domain intel471.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://darktrace.com/blog/evil-corp-intrusions-wastedlocker-ransomware-detected-by-darktrace: Domain darktrace.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:30 - agents.research_agent - INFO - Making Tavily API request for query: Research about: not_a_url
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://askubuntu.com/questions/604324/how-is-rm-rf-able-to-delete-all-files-in-the-system: Domain askubuntu.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://serverfault.com/questions/337082/how-do-i-prevent-accidental-rm-rf: Domain serverfault.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://dev.to/devmount/9-evil-bash-commands-explained-4k5e: Domain dev.to not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://unix.stackexchange.com/questions/72864/how-to-avoid-the-need-to-issue-y-several-times-when-removing-protected-file: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://www.cyberciti.biz/faq/howto-linux-unix-delete-remove-file/: Domain cyberciti.biz not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://community.freepbx.org/t/k-php-a-restapps-malicious-script/80399: Domain freepbx.org not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://cwe.mitre.org/data/definitions/78.html: Domain mitre.org not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/829407/why-is-calling-extract-on-submission-data-ex-get-post-risky-bad-prac: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://www.exploit-db.com/papers/33930: Domain exploit-db.com not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - WARNING - Skipping unsafe URL https://cwe.mitre.org/data/definitions/77.html: Domain mitre.org not in allowed list
+2025-03-02 14:21:30 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://security.stackexchange.com/questions/44849/security-of-an-initial-redirection-from-http-example-com-to-https-example-co: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://serverfault.com/questions/570288/is-it-bad-to-redirect-http-to-https: Domain serverfault.com not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://cyberweapons.medium.com/open-redirection-to-reflected-cross-site-scripting-6ed2d55a4af6: Domain medium.com not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/4365294/is-redirecting-http-to-https-a-bad-idea: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://www.zscaler.com/blogs/security-research/unchecked-redirection-url-shortener-spam: Domain zscaler.com not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedirect.com/science/article/abs/pii/S0167404820302480: URL returned status code 403
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://www.ericgoldman.name/en/2016/vulnerability-report-jive-open-redirect/: Domain ericgoldman.name not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-326a: Domain cisa.gov not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://www.reddit.com/r/AskProgramming/comments/12769ci/what_are_my_security_concerns_regarding_hosting_a/: Domain reddit.com not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - WARNING - Skipping unsafe URL https://www.rapid7.com/blog/post/2021/01/29/nicer-protocol-deep-dive-internet-exposure-of-http-and-https/: Domain rapid7.com not in allowed list
+2025-03-02 14:21:31 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:31 - agents.research_agent - INFO - Making Tavily API request for query: Research about: http://
+2025-03-02 14:21:32 - agents.research_agent - INFO - Making Tavily API request for query: Research about: http://example.com:abc
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://academia.stackexchange.com/questions/1422/can-i-cite-a-url-only-instead-of-author-title-etc-in-a-research-paper: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://www.lcc.edu/library/help/citation/handouts/apa-references.pdf: Domain lcc.edu not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/723934/example-of-a-uri-that-isnt-a-url: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://factoryjoe.com/2009/03/21/my-name-is-not-a-url/: Domain factoryjoe.com not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://www.umassd.edu/marketing/web-writing/links/: Domain umassd.edu not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://www.lib.uidaho.edu/services/data/dois.html: Domain uidaho.edu not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/352099216_Research_on_Malicious_URL_Detection_Based_on_Feature_Contribution_Tendency: Domain researchgate.net not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/328761731_Comparative_Study_of_the_Detection_of_Malicious_URLs_Using_Shallow_and_Deep_Networks: Domain researchgate.net not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://www.imss.caltech.edu/services/security/recommendations/how-to-read-urls: Domain caltech.edu not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - WARNING - Skipping unsafe URL https://auth0.com/blog/url-uri-urn-differences/: Domain auth0.com not in allowed list
+2025-03-02 14:21:33 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:34 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://.com
+2025-03-02 14:21:34 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/path with spaces
+2025-03-02 14:21:34 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/path/with/émojis/🔒
+2025-03-02 14:21:34 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/311757131_Analysis_of_web_traffic_based_on_HTTP_protocol: Domain researchgate.net not in allowed list
+2025-03-02 14:21:34 - agents.research_agent - WARNING - Skipping unsafe URL https://portswigger.net/research/request-smuggling: Domain portswigger.net not in allowed list
+2025-03-02 14:21:34 - agents.research_agent - WARNING - Skipping unsafe URL https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview: Domain mozilla.org not in allowed list
+2025-03-02 14:21:34 - agents.research_agent - WARNING - Skipping unsafe URL https://www.techtarget.com/whatis/definition/HTTP-Hypertext-Transfer-Protocol: Domain techtarget.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL http://ieeexplore.ieee.org/document/4085443/: URL returned status code 418
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://www.w3.org/Protocols/Papers.html: Domain w3.org not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://www.f5.com/glossary/hypertext-transfer-protocol-http: Domain f5.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://study.com/learn/lesson/what-is-hypertext-transfer-protocol-examples.html: Domain study.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://www.semanticscholar.org/paper/Analysis-of-web-traffic-based-on-HTTP-protocol-Chen-Cheng/47adf6c6ec2bba63d1eca5284e132d6c80f53b65: Domain semanticscholar.org not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - INFO - Found 2 results from Tavily API
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://academic.oup.com/nar/article/51/D1/D792/6654411: Domain oup.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://webmasters.stackexchange.com/questions/79126/transitioning-from-www-example-com-wordpress-abc-to-www-example-com-abc: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/56618432/how-to-point-abc-customerdomain-com-to-http-example-com-abc-with-browser-showi: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/figure/Web-API-example-The-red-ABC-icon-on-top-of-the-textarea-indicates-a-stateful-field_fig5_228967017: Domain researchgate.net not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://www.quora.com/What-exactly-happens-when-we-open-a-website-like-http-www-abc-com-*yxz: Domain quora.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://webmasters.stackexchange.com/questions/17694/forwarding-www-example-com-abc-to-abc-example-com: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://www.eazystock.com/blog/calculate-apply-abc-classification-inventory/: Domain eazystock.com not in allowed list
+2025-03-02 14:21:36 - agents.research_agent - WARNING - Skipping unsafe URL https://serverfault.com/questions/976988/redirect-abc-example-com-to-example-com-abc: Domain serverfault.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://homepages.cwi.nl/~steven/abc/: Domain cwi.nl not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - INFO - Found 2 results from Tavily API
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://getemoji.com/: Domain getemoji.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://communities.sas.com/t5/SAS-Programming/PIPE-Command-Using-Linux-Path-with-Spaces/td-p/563826: Domain sas.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://developercommunity.visualstudio.com/content/problem/1041387/directorycreatedirectory-behave-differently-with-s.html: Domain visualstudio.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://forums.developer.apple.com/forums/thread/22954: Domain apple.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://serverfault.com/questions/768961/iis-fastcgi-scriptprocessor-with-spaces-in-path: Domain serverfault.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/5442658/spaces-in-urls: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://learn.microsoft.com/en-us/troubleshoot/windows-server/setup-upgrade-and-drivers/filenames-with-spaces-require-quotation-mark: Domain microsoft.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://answers.microsoft.com/en-us/outlook_com/forum/all/unc-path-pasting-with-spaces-functionality-changes/5ec82829-5dde-4356-bd82-7624a7bdb0bc: Domain microsoft.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://superuser.com/questions/371754/how-can-i-write-a-shortcut-to-a-program-with-spaces-in-the-path-and-use-cmd-exe: Domain superuser.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://tex.stackexchange.com/questions/46550/can-i-have-a-path-argument-that-contains-spaces: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://superuser.com/questions/478679/cannot-cd-to-a-folder-with-spaces-in-the-the-folder-path: Domain superuser.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://research.com/: Domain research.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/: Domain researchgate.net not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://study.com/: Domain study.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://research.google/: Domain research.google not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://www.pewresearch.org/topic/internet-technology/: Domain pewresearch.org not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://scholar.google.com/: Domain google.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://research.facebook.com/: Domain facebook.com not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedirect.com/journal/journal-of-business-research: URL returned status code 403
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://www.ssrn.com/: URL returned status code 429
+2025-03-02 14:21:37 - agents.research_agent - WARNING - Skipping unsafe URL https://www.darpa.mil/: Domain darpa.mil not in allowed list
+2025-03-02 14:21:37 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:21:37 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://example.com/path%20encoded
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://support.google.com/webmasters/thread/167356685/robots-txt-test-tool-directive-path-20-encoding-flaw?hl=en: Domain google.com not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://www.quora.com/How-does-HTTPS-work-What-is-encryption-used-for-HTTPS-communication: Domain quora.com not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://webmasters.stackexchange.com/questions/65605/when-is-a-url-encoded: Domain stackexchange.com not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://developers.google.com/maps/url-encoding: Domain google.com not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://forum.obsidian.md/t/option-to-automatically-escape-blank-spaces-in-external-links/94715: Domain obsidian.md not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/1634271/url-encoding-the-space-character-or-20: Domain stackoverflow.com not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://goteleport.com/resources/tools/url-encoder/: Domain goteleport.com not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://www.researchgate.net/publication/343759266_A_Survey_of_HTTPS_Traffic_and_Services_Identification_Approaches: Domain researchgate.net not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://ironpdf.com/blog/net-help/csharp-url-encode/: Domain ironpdf.com not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - WARNING - Skipping unsafe URL https://cwe.mitre.org/data/definitions/177.html: Domain mitre.org not in allowed list
+2025-03-02 14:21:40 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:22:08 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:22:10 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/14390090/github-api-list-all-repositories-and-repos-content: Domain stackoverflow.com not in allowed list
+2025-03-02 14:22:10 - agents.research_agent - INFO - Found 10 results from Tavily API
+2025-03-02 14:23:09 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://api.github.com/repos/user/repo
+2025-03-02 14:23:09 - agents.research_agent - INFO - Making Tavily API request for query: Research about: https://docs.python.org/3/library/
+2025-03-02 14:23:16 - agents.research_agent - WARNING - Skipping unsafe URL https://stackoverflow.com/questions/14390090/github-api-list-all-repositories-and-repos-content: Failed to verify URL
+2025-03-02 14:23:16 - agents.research_agent - INFO - Found 10 results from Tavily API
+2025-03-02 14:23:16 - agents.research_agent - WARNING - Skipping unsafe URL https://www.reddit.com/r/learnpython/comments/7axje4/how_to_read_the_documentation_of_python_3/: Domain reddit.com not in allowed list
+2025-03-02 14:23:16 - agents.research_agent - INFO - Found 10 results from Tavily API
+2025-03-02 14:33:41 - agents.research_agent - INFO - Making Tavily API request for query: Latest developments in quantum computing
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://www.technewsworld.com/story/quantum-computing-remains-experimental-despite-2024-advances-forrester-179514.html: Domain technewsworld.com not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedaily.com/news/matter_energy/quantum_computing/: Domain sciencedaily.com not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://www.wevolver.com/article/breakthroughs-in-quantum-computing: Domain wevolver.com not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://phys.org/tags/quantum+computing/: Domain phys.org not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://www.wired.com/tag/quantum-computing/: Domain wired.com not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://microtime.com/quantum-computing-in-2024-breakthroughs-challenges-and-what-lies-ahead/: Domain microtime.com not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://www.sciencedaily.com/news/computers_math/quantum_computers/: Domain sciencedaily.com not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://thequantuminsider.com/: Domain thequantuminsider.com not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://pme.uchicago.edu/news/world-quantum-day-2024-latest-developments-quantum-science-and-technology: Domain uchicago.edu not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - WARNING - Skipping unsafe URL https://news.mit.edu/topic/quantum-computing: Domain mit.edu not in allowed list
+2025-03-02 14:33:45 - agents.research_agent - INFO - Found 1 results from Tavily API
+2025-03-02 14:39:15 - agents.research_agent - INFO - Making Tavily API request for query: why python is prefered over other languages ?
+2025-03-02 14:39:18 - agents.research_agent - WARNING - Skipping unsafe URL https://www.quora.com/What-are-the-reasons-for-your-preference-for-Python-over-other-programming-languages-Are-there-any-aspects-of-Python-that-you-do-not-like: Domain quora.com not in allowed list
+2025-03-02 14:39:18 - agents.research_agent - WARNING - Skipping unsafe URL https://www.geeksforgeeks.org/top-advantages-of-python/: Domain geeksforgeeks.org not in allowed list
+2025-03-02 14:39:18 - agents.research_agent - WARNING - Skipping unsafe URL https://www.reddit.com/r/Python/comments/1bqv85/why_do_you_choose_python_over_other_language/: Domain reddit.com not in allowed list
+2025-03-02 14:39:18 - agents.research_agent - WARNING - Skipping unsafe URL https://www.analyticsvidhya.com/blog/2024/01/advantages-of-python-over-other-programming-languages/: Domain analyticsvidhya.com not in allowed list
+2025-03-02 14:39:18 - agents.research_agent - WARNING - Skipping unsafe URL https://elearningindustry.com/advantages-of-python-programming-languages: Domain elearningindustry.com not in allowed list
+2025-03-02 14:39:19 - agents.research_agent - WARNING - Skipping unsafe URL https://www.edoxi.com/studyhub-detail/advantages-of-python-over-other-programming-languages: Domain edoxi.com not in allowed list
+2025-03-02 14:39:19 - agents.research_agent - WARNING - Skipping unsafe URL https://www.invensis.net/blog/benefits-of-python-over-other-programming-languages: Domain invensis.net not in allowed list
+2025-03-02 14:39:19 - agents.research_agent - WARNING - Skipping unsafe URL https://vilmate.com/blog/python-vs-other-programming-languages/: Domain vilmate.com not in allowed list
+2025-03-02 14:39:19 - agents.research_agent - WARNING - Skipping unsafe URL https://uvik.net/blog/how-python-is-different-from-other-languages/: Domain uvik.net not in allowed list
+2025-03-02 14:39:19 - agents.research_agent - INFO - Found 2 results from Tavily API
+2025-03-02 14:40:14 - agents.research_agent - INFO - Making Tavily API request for query: where is mumbai located and why ?
+2025-03-02 14:40:18 - agents.research_agent - WARNING - Skipping unsafe URL https://www.internetgeography.net/topics/what-is-the-location-and-importance-of-mumbai/: Domain internetgeography.net not in allowed list
+2025-03-02 14:40:18 - agents.research_agent - WARNING - Skipping unsafe URL https://www.mumbai.org.uk/geographical-location.html: Domain mumbai.org.uk not in allowed list
+2025-03-02 14:40:18 - agents.research_agent - WARNING - Skipping unsafe URL https://sistercities.lacity.org/html/16.html: Domain lacity.org not in allowed list
+2025-03-02 14:40:18 - agents.research_agent - WARNING - Skipping unsafe URL https://dm.mcgm.gov.in/assets/pdf/city_profile.pdf: Domain mcgm.gov.in not in allowed list
+2025-03-02 14:40:18 - agents.research_agent - WARNING - Skipping unsafe URL https://www.coolgeography.co.uk/advanced/Mumbai.php: Domain coolgeography.co.uk not in allowed list
+2025-03-02 14:40:18 - agents.research_agent - WARNING - Skipping unsafe URL https://wikitravel.org/en/Mumbai: Domain wikitravel.org not in allowed list
+2025-03-02 14:40:18 - agents.research_agent - WARNING - Skipping unsafe URL https://www.britannica.com/place/Mumbai: Domain britannica.com not in allowed list
+2025-03-02 14:40:18 - agents.research_agent - WARNING - Skipping unsafe URL https://mumbaicity.gov.in/history/: Domain mumbaicity.gov.in not in allowed list
+2025-03-02 14:40:18 - agents.research_agent - INFO - Found 3 results from Tavily API
